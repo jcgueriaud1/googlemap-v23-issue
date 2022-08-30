@@ -13,6 +13,10 @@
         <java.version>17</java.version>
         <vaadin.version>23.2.0.beta4</vaadin.version>
         <selenium.version>4.4.0</selenium.version>
+        <fullcalendar-component.version>4.1.2</fullcalendar-component.version>
+        <html-table.version>1.2.0</html-table.version>
+        <sortable.version>1.1.8</sortable.version>
+        <google-maps.version>1.8.0</google-maps.version>
     </properties>
 
     <parent>
@@ -123,6 +127,26 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.1.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.vaadin.stefan</groupId>
+            <artifactId>fullcalendar2</artifactId>
+            <version>${fullcalendar-component.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.vaadin.stefan</groupId>
+            <artifactId>html-table</artifactId>
+            <version>${html-table.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.vaadin.jchristophe</groupId>
+            <artifactId>sortable-layout</artifactId>
+            <version>${sortable.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.flowingcode.vaadin.addons</groupId>
+            <artifactId>google-maps</artifactId>
+            <version>${google-maps.version}</version>
         </dependency>
     </dependencies>
 

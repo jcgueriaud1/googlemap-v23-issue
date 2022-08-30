@@ -60,6 +60,9 @@ public class MainLayout extends AppLayout {
 
         nav.addItem(new AppNavItem("Hello World", HelloWorldView.class, "la la-globe"));
         nav.addItem(new AppNavItem("About", AboutView.class, "la la-file"));
+        nav.addItem(new AppNavItem("Html table", HtmlTableWorldView.class, "la la-file"));
+        nav.addItem(new AppNavItem("sortable", SortableView.class, "la la-file"));
+        nav.addItem(new AppNavItem("google map", GoogleMapView.class, "la la-file"));
 
         return nav;
     }
