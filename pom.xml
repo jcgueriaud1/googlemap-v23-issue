@@ -11,12 +11,14 @@
 
     <properties>
         <java.version>17</java.version>
-        <vaadin.version>23.2.0.beta4</vaadin.version>
+        <vaadin.version>23.2.0.rc1</vaadin.version>
         <selenium.version>4.4.0</selenium.version>
         <fullcalendar-component.version>4.1.2</fullcalendar-component.version>
         <html-table.version>1.2.0</html-table.version>
         <sortable.version>1.1.8</sortable.version>
-        <google-maps.version>1.8.0</google-maps.version>
+        <ace.version>3.4.1</ace.version>
+        <multiselect-combo-box-flow.version>23.1.2</multiselect-combo-box-flow.version>
+        <color-picker-field-flow.version>2.0.0.beta6</color-picker-field-flow.version>
     </properties>
 
     <parent>
@@ -143,10 +145,16 @@
             <artifactId>sortable-layout</artifactId>
             <version>${sortable.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>com.flowingcode.vaadin.addons</groupId>
-            <artifactId>google-maps</artifactId>
-            <version>${google-maps.version}</version>
+            <groupId>de.f0rce</groupId>
+            <artifactId>ace</artifactId>
+            <version>${ace.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.appreciated</groupId>
+            <artifactId>color-picker-field-flow</artifactId>
+            <version>${color-picker-field-flow.version}</version>
         </dependency>
     </dependencies>
 
